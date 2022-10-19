@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 阿甘科技的博客</title>
+    <link>https://agkjVIP.github.io/posts/</link>
+    <description>Recent content in Posts on 阿甘科技的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>[阿甘科技的博客](https://agkjVIP.github.io/)的所有文章著作权均归@阿甘科技 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护。
+
+除文章特殊说明外，未经@阿甘科技 许可擅自非法转载需要承担相应责任。</copyright><atom:link href="https://agkjVIP.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://agkjVIP.github.io/posts/first_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agkjVIP.github.io/posts/first_post/</guid>
+      <description>title: &amp;ldquo;Hugo博客系列(一)&amp;rdquo; date: 2022-01-04T18:40:38+08:00 tags: [&amp;ldquo;Hugo&amp;rdquo;] categories: [&amp;ldquo;web&amp;rdquo;] toc: enable: true description: 本系列教程第一章讲解了几种常见的博客框架选择，最终以 Hugo 框架为基础，教</description>
+    </item>
+    
+  </channel>
+</rss>

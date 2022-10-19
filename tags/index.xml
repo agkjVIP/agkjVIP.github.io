@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 阿甘科技的博客</title>
+    <link>https://agkjVIP.github.io/tags/</link>
+    <description>Recent content in Tags on 阿甘科技的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>[阿甘科技的博客](https://agkjVIP.github.io/)的所有文章著作权均归@阿甘科技 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护。
+
+除文章特殊说明外，未经@阿甘科技 许可擅自非法转载需要承担相应责任。</copyright><atom:link href="https://agkjVIP.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
