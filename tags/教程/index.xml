@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on 阿甘科技的博客</title>
+    <link>https://agkjVIP.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on 阿甘科技的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Nov 2022 15:18:53 +0800</lastBuildDate><atom:link href="https://agkjVIP.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Purefast自动签到教程</title>
+      <link>https://agkjVIP.github.io/posts/seventh_post/</link>
+      <pubDate>Wed, 02 Nov 2022 15:18:53 +0800</pubDate>
+      
+      <guid>https://agkjVIP.github.io/posts/seventh_post/</guid>
+      <description>&lt;h2 id=&#34;windows系统linux系统&#34;&gt;Windows系统&amp;amp;Linux系统&lt;/h2&gt;
+&lt;h3 id=&#34;使用方法支持多个机场&#34;&gt;使用方法（支持多个机场）&lt;/h3&gt;
+&lt;h3 id=&#34;在此仓库httpsgithubcomwzdnzdaggregator基础上&#34;&gt;在此&lt;a href=&#34;https://github.com/wzdnzd/aggregator&#34;&gt;仓库&lt;/a&gt;基础上&lt;/h3&gt;
+&lt;h4 id=&#34;1-利用github-actions签到推荐&#34;&gt;1. 利用Github Actions签到（推荐）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;点击右上角&lt;code&gt;Fork&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设置密钥：分别添加名（即&lt;code&gt;Name&lt;/code&gt;）为 &lt;code&gt;AP_DOMAINS&lt;/code&gt;、&lt;code&gt;AP_EMAILS&lt;/code&gt;、&lt;code&gt;AP_PASSWORDS&lt;/code&gt; 的密钥并填写对应的值（即&lt;code&gt;Value&lt;/code&gt;）。如有多个账号(不论是同一机场与否)，需要在 &lt;code&gt;Value&lt;/code&gt; 栏里一一填写并用 &lt;code&gt;||&lt;/code&gt; 隔开&lt;/strong&gt;
+&lt;a href=&#34;https://imgtu.com/i/vNWxoj&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/08/14/vNWxoj.png&#34; alt=&#34;添加密钥&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://imgtu.com/i/vU1lng&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/08/14/vU1lng.png&#34; alt=&#34;密钥&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;若要修改签到时间，可修改&lt;code&gt;.github/workflows/checkin.yml&lt;/code&gt;文件的&lt;code&gt;cron&lt;/code&gt;配置
+&lt;a href=&#34;https://imgtu.com/i/vUSkjS&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/08/14/vUSkjS.png&#34; alt=&#34;修改签到时间&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在 Actions 页面启用 workflow，可先手动触发运行一次验证配置是否正确
+&lt;a href=&#34;https://imgtu.com/i/vUlBFI&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/08/14/vUlBFI.png&#34; alt=&#34;手动触发&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-本地运行&#34;&gt;2. 本地运行&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;克隆代码库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/wzdnzd/aggregator.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;安装依赖库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install -U requests
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;修改 &lt;code&gt;config.json&lt;/code&gt; 配置文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;proxyServer: 代理服务器地址，非必需&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;waitTime: 0 ~ 24，模拟任意时间签到，非必需&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;retry: 失败时重试次数，非必需&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domains：支持多个机场，必须&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domain：机场主域名，必须&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;proxy：true | false，是否使用代理&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;email：注册时使用的email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;password：密码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;windows&lt;/code&gt; 操作系统可通过 &lt;code&gt;任务计划程序&lt;/code&gt; 添加到定时任务，详见&lt;a href=&#34;https://blog.csdn.net/CaiJin1217/article/details/81453940&#34;&gt;Windows系统中设置Python程序定时运行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Linux&lt;/code&gt; 或 &lt;code&gt;MacOS&lt;/code&gt; 可通过 &lt;code&gt;cron&lt;/code&gt; 添加到定时任务（或登陆启动项），详见&lt;a href=&#34;https://bbs.huaweicloud.com/blogs/333192&#34;&gt;利用Linux的crontab实现定时执行python任务&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ios系统&#34;&gt;IOS系统&lt;/h2&gt;
+&lt;h3 id=&#34;使用方法不支持多个机场&#34;&gt;使用方法（不支持多个机场）&lt;/h3&gt;
+&lt;h3 id=&#34;在此软件快捷指令httpsappsapplecomappshortcutsid915249334基础上&#34;&gt;在此软件&lt;a href=&#34;https://apps.apple.com/app/shortcuts/id915249334&#34;&gt;快捷指令&lt;/a&gt;基础上&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用&lt;a href=&#34;https://www.icloud.com/shortcuts/9eb3073898ff4142a4868263b8132b10&#34;&gt;purefast自动签到&lt;/a&gt;指令&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在快捷指令特定位置填写账号密码等信息!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设置个人自动化&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/xHrXS1&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/11/02/xHrXS1.png&#34; alt=&#34;xHrXS1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编辑自动化-选择启用-当模块中设置自动化运行的时间(个人喜好)-执行模块中选择运行快捷指令即你刚刚导入的快捷指令-选择运行前不询问(若询问，该自动化需要手动运行)-选择运行是通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/xHyZC9&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/11/02/xHyZC9.png&#34; alt=&#34;xHyZC9.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/xHyPBT&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/11/02/xHyPBT.png&#34; alt=&#34;xHyPBT.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;测试成功后即可&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
