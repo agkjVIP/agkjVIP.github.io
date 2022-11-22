@@ -1,5 +1,6 @@
-baseURL = "https://agkjVIP.github.io"
-title = "阿甘科技的博客"
+baseURL = "https://example.com"
+title = "Your title"
+themesDir = "../.."
 theme = "m10c"
 paginate = 8
 
@@ -14,30 +15,24 @@ paginate = 8
     name = "Tags"
     url = "/tags/"
     weight = 2
-[[menu.main]]
+  [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/posts/first_post/"
+    url = "/about/"
     weight = 3
 
 [params]
-  author = "agkjVIP"
-  avatar = "https://avatars.githubusercontent.com/u/103356507?v=4"
-  description = "By 阿甘科技"
-  favicon = "https://s1.ax1x.com/2022/11/02/xH6oef.png"
+  author = "John Doe"
+  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/agkjVIP"
+    url = "https://github.com/gohugoio"
   [[params.social]]
-    icon = "youtube"
-    name = "Youtube"
-    url = "https://www.youtube.com/channel/UCj4DaQ3kboTY6tun1eCaT9g"
-[[params.social]]
-    icon = "qq"
-    name = "QQ"
-    url = "https://jq.qq.com/?_wv=1027&k=a73q4liT"
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/gohugoio"
 
   # Default theme
   #[params.style]
