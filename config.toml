@@ -1,0 +1,64 @@
+baseURL = "https://agkjVIP.github.io"
+title = "阿甘科技的博客"
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/posts/first_post/"
+    weight = 3
+
+[params]
+  author = "agkjVIP"
+  avatar = "https://avatars.githubusercontent.com/u/103356507?v=4"
+  description = "By 阿甘科技&雨伞cky"
+  favicon = "https://s1.ax1x.com/2022/11/02/xH6oef.png"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/agkjVIP"
+  [[params.social]]
+    icon = "youtube"
+    name = "Youtube"
+    url = "https://www.youtube.com/channel/UCj4DaQ3kboTY6tun1eCaT9g"
+[[params.social]]
+    icon = "qq"
+    name = "QQ"
+    url = "https://jq.qq.com/?_wv=1027&k=a73q4liT"
+
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
+
+  # Red theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  lightColor = "#d6d6d6"
+  #  lightestColor = "#d3d3d3"
+  #  primaryColor = "#ffffff"
