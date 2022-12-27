@@ -100,16 +100,17 @@ Replit的其他功能都可以在文档中找到，够玩好几天了。
 由于 Replit 为了节省资源在项目没有流量访问时会自动关闭项目
 
 ### 部署网站监控
-在UptimeBot中新建一个监控:
 
-### 配置:
+#### 配置
+**Fork** 此[项目仓库](https://github.com/Mrzyang/doprax_keep_replit_alive)
 
-Monitor Type 选择 https
+打开 main.js 在第5行 replit_app_urls 填写 Replit 应用的 url ,多个应用以逗号隔开
 
-Friendly Name 名称随意
+#### 部署
+进入[Doprax](https://www.doprax.com/),点击 New App
 
-Url 填写Replit的域名或绑定的域名
+进入创建的 App 的管理面板,在 **Main** 界面连接 Github 账户
 
-[可选]邮箱提醒(当监控不成功时发送邮件,由于显示的是 Bad Request 所以会一直发邮件,不推荐选)
+完成后选择 Import From My Github Account , Import 刚刚 **Fork** 的仓库
 
-完成后点击 Creat Monitor 即可
+然后点击左侧的 **Deploy** , 点击蓝色的 > 按钮,等待状态变为 **running** 即可
