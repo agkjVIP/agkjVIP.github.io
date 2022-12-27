@@ -74,9 +74,11 @@ Replit的其他功能都可以在文档中找到，够玩好几天了。
 备用地址： [Relit-Trojan2](https://replit.com/@oracleservice/trojan)
 然后运行 bash main.sh
 即可看到 trojan链接和二维码，实测路由器可用。
+
 ![3](https://iweec.com/usr/uploads/2022/12/3103210989.png)
 
 配置参考：
+
 ![3](https://iweec.com/usr/uploads/2022/12/2336471006.jpg)
 
 ## 搭建Vmess
@@ -109,8 +111,5 @@ Friendly Name 名称随意
 Url 填写Replit的域名或绑定的域名
 
 [可选]邮箱提醒(当监控不成功时发送邮件,由于显示的是 Bad Request 所以会一直发邮件,不推荐选)
-
-![6](https://blog.steven.tk/p/vpn-replit-vmess/uptimebot-settings.png)
-ps:只需要配置图中框出部分
 
 完成后点击 Creat Monitor 即可
