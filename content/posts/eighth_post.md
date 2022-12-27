@@ -1,7 +1,7 @@
 ---
 title: "史上最快免费搭建节点方法"
 date: 2022-12-01T15:54:42+08:00
-tags: ["教程","阿甘科技的博客"]
+tags: ["教程"]
 categories: [""]
 draft: false
 dropCap: false
@@ -114,3 +114,7 @@ Replit的其他功能都可以在文档中找到，够玩好几天了。
 完成后选择 Import From My Github Account , Import 刚刚 **Fork** 的仓库
 
 然后点击左侧的 **Deploy** , 点击蓝色的 > 按钮,等待状态变为 **running** 即可
+
+# 鸣谢
+[Steven](https://blog.steven.tk/)大佬提供的保持开启方案.
+[梅塔沃克](https://iweec.com/)大佬提供的replit介绍及搭建方案
