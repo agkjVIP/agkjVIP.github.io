@@ -28,15 +28,15 @@ paginate = 8
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
-    name = "Github"
+    name = "GitHub"
     url = "https://github.com/agkjVIP"
   [[params.social]]
     icon = "youtube"
     name = "Youtube"
     url = "https://www.youtube.com/channel/UCj4DaQ3kboTY6tun1eCaT9g"
   [[params.social]]
-    icon = "qq"
-    name = "QQ"
+    icon = "tencentqq"
+    name = "Tencent QQ"
     url = "https://jq.qq.com/?_wv=1027&k=a73q4liT"
 
   # Default theme
