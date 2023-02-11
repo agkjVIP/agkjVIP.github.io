@@ -16,4 +16,4 @@ tocNum: false
 
 阿甘科技的博客使用了 [Hugo](https://gohugo.io/) 框架，使用 Hugo 主题 [M10c](https://github.com/vaga/hugo-theme-m10c)，托管于 [GitHub](https://github.com/)。笔者在此感谢所有对这些项目参与贡献、以及对这些项目的基础项目参与贡献的贡献者表示感谢。此外，特别感谢 [雨伞CKY](https://github.com/yusancky) 对本项目的支持。
 
-由于笔者自身能力有限，尤桑记目前不计划开放评论功能。欢迎前往 [GitHub Discussions](https://github.com/agkjVIP/agkjVIP.github.io/discussions) 参与讨论。
+由于笔者自身能力有限，本站目前不计划开放评论功能。欢迎前往 [GitHub Discussions](https://github.com/agkjVIP/agkjVIP.github.io/discussions) 参与讨论。
