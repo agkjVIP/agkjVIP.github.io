@@ -14,7 +14,7 @@ paginate = 8
     name = "Tags"
     url = "/tags/"
     weight = 2
-[[menu.main]]
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/posts/first_post/"
