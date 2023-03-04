@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "14:30"
+      timezone: "Asia/Shanghai"
+    reviewers:
+      - "yusancky"
