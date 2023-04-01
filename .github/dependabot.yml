@@ -4,8 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "sunday"
-      time: "14:30"
+      day: "saturday"
+      time: "16:00"
       timezone: "Asia/Shanghai"
     reviewers:
       - "yusancky"
